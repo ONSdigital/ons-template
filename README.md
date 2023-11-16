@@ -1,6 +1,9 @@
 # ons-template
 Example of how to set-up a repository
 
+## The Wiki!
+[The wiki](../../wiki) explains how you could implement the GitHub Repository policy to do link to policy.
+
 ## What should a good README.md contain
 * Title formatted as heading one.
 * Brief Description of the Repository under said title.
