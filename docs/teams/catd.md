@@ -36,3 +36,5 @@
 
 # Potential new?
 Missing .gitingore 4.5?
+Missing PIRR.md 4.2
+Missing repository creation 4.1?
