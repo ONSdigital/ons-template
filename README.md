@@ -1,7 +1,7 @@
 # ons-template
 Example of how to set-up a repository
 
-## What Should a good README.md contains
+## What should a good README.md contain
 * Title formatted as heading one.
 * Brief Description of the Repository under said title.
 * As many badges as possible.
