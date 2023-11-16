@@ -30,3 +30,7 @@
 # Security:
 1. Ensure Dependabot is enabled for the repository - Security updates should be enabled.
 1. Enable Secret Scanning on the repository.
+
+# CODEOWNERS
+1. Only when the repository is shared and multiple teams own it.
+1. We tend to use this to give ownerships of certain files to certain teams, i.e common when we have documentation of system contracts, that way it ensures affected teams are required to review and not all parties
