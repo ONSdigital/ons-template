@@ -21,7 +21,7 @@
 
 # Documentation:
 1. Maintain an up-to-date and comprehensive README.md file.
-1. Include a LICENCE file, which should be one of MIT or OGL.
+1. Include a LICENCE file, which should be one of MIT or OGL. (Implements 4.4)
 
 # Issue and Pull Request Guidelines
 1. Issue Templates: Provide templates for different types of issues (e.g., bug report, feature request).
@@ -34,3 +34,6 @@
 # CODEOWNERS
 1. Only when the repository is shared and multiple teams own it.
 1. We tend to use this to give ownerships of certain files to certain teams, i.e common when we have documentation of system contracts, that way it ensures affected teams are required to review and not all parties
+
+# Potential new?
+Missing .gitingore 4.5?

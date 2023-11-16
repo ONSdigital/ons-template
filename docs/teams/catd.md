@@ -18,7 +18,7 @@
 1. A CONTRIBUTING.md 
     - For contributing guidance go here: https://github.com/ONSdigital/gcp-terraform-template/blob/main/CONTRIBUTING.md
 1. For public facing repositories we will include, all the private repo files plus:
-    - A MIT Licence
+    - A MIT Licence (Implements 4.4)
 1. For a SINGLE project Terraform repo we will store Terraform code in the ROOT.
 1. For a MULTIPLE project Terraform repository we will store Terraform code in PROJECT FOLDER.
 
@@ -33,3 +33,6 @@
 # Security
 1. All Terraform repositories should not be public.
 1. Only 2 branches or tags can be updated in a single push.
+
+# Potential new?
+Missing .gitingore 4.5?
