@@ -1,5 +1,6 @@
 # ons-template
-Example of how to set-up a repository
+
+This repository attempts to demonstrate how colleagues can implement the [GitHub Policy](https://officenationalstatistics.sharepoint.com/sites/ONS_DDaT_Communities/Software%20Engineering%20Policies/Draft_Sub_Policies/GitHub%20Usage%20Policy.docx) (Link to internal site, not accessible externally) created by ONS' Software Engineering Community.
 
 ## The Wiki!
 [The wiki](../../wiki) explains how you could implement the GitHub Repository policy to do link to policy.
