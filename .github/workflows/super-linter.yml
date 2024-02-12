@@ -1,0 +1,51 @@
+---
+    name: github-superlinter
+    run-name: ${{github.workflow}} - ${{ github.actor }} pushed a change to ${{github.ref_name}}
+    on:
+      workflow_call:
+        inputs:
+          config-path:
+            required: true
+            type: string
+          default-branch:
+            required: true
+            type: string
+          log-level:
+            required: false
+            type: string
+            default: WARN
+          validate-all-code-base:
+            required: true
+            type: boolean
+          actions-runner-debug:
+            required: false
+            type: boolean
+            default: false
+          disable-errors:
+            required: false
+            type: boolean
+            default: false
+    permissions:
+      contents: read
+      statuses: write
+    jobs:
+      superlint:
+        runs-on: ubuntu-latest
+        defaults:
+          run:
+            shell: bash
+        steps:
+          - uses: actions/checkout@v4
+            with:
+              fetch-depth: 0
+          - run: chmod +x ${{ inputs.config-path }}/superlint_env.sh
+          - run: ${{ inputs.config-path }}/superlint_env.sh
+          - uses: super-linter/super-linter/slim@v6
+            env:
+              DEFAULT_BRANCH: ${{ inputs.default-branch }}
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              LINTER_RULES_PATH: ${{ inputs.config-path }}
+              LOG_LEVEL: ${{ inputs.log-level }}
+              VALIDATE_ALL_CODEBASE: ${{ inputs.validate-all-code-base }}
+              ACTIONS_RUNNER_DEBUG: ${{ inputs.actions-runner-debug }}
+              DISABLE_ERRORS: ${{ inputs.disable-errors }}
