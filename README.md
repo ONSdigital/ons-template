@@ -1,6 +1,6 @@
-[![Super-Linter](https://github.com/ONSdigital/ons-template/actions/workflows/super-linter.yml/badge.svg?branch=main)](https://github.com/ONSdigital/ons-template/actions/workflows/super-linter.yml)
-
 # ons-template
+
+[![Super-Linter](https://github.com/ONSdigital/ons-template/actions/workflows/super-linter.yml/badge.svg?branch=main)](https://github.com/ONSdigital/ons-template/actions/workflows/super-linter.yml)
 
 This repository attempts to demonstrate how colleagues can implement the [GitHub Policy](https://officenationalstatistics.sharepoint.com/sites/ONS_DDaT_Communities/Software%20Engineering%20Policies/Draft_Sub_Policies/GitHub%20Usage%20Policy.docx) (Link to internal site, not accessible externally) created by ONS' Software Engineering Community.
 
