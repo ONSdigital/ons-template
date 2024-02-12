@@ -16,12 +16,12 @@
 1. Require signed commits
 1. Enable the option “Do not allow bypassing the above settings”
 
-## Pull Requests:
+## Pull Requests
 1. Enable “Allow squash merging ” (Team preference?)
 1. Enable “Always suggest updating pull request branches ”
 1. Enable “Automatically delete head branches ”
 
-## Documentation:
+## Documentation
 1. Maintain an up-to-date and comprehensive README.md file.
 1. Include a LICENCE file, which should be one of MIT or OGL. (Implements 4.4)
 
@@ -29,7 +29,7 @@
 1. Issue Templates: Provide templates for different types of issues (e.g., bug report, feature request).
 1. Pull Request Templates: Use pull request templates to standardise the information required for pull requests.
 
-## Security:
+## Security
 1. Ensure Dependabot is enabled for the repository - Security updates should be enabled.
 1. Enable Secret Scanning on the repository.
 

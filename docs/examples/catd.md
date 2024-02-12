@@ -16,9 +16,9 @@
 ## Files and Folders
 1. For all repositories we will include:
 1. A CODEOWNERS file in a `.github` folder.
-1. A README.md, For README guidance go here: https://github.com/ONSdigital/gcp-terraform-template/blob/main/README.md
+1. A README.md, For README guidance go here: [Example Readme](https://github.com/ONSdigital/ons-gcp-terraform-template/blob/main/README.md)
 1. A CONTRIBUTING.md  (Implements 4.6)
-    - For contributing guidance go here: https://github.com/ONSdigital/gcp-terraform-template/blob/main/CONTRIBUTING.md
+    - For contributing guidance go here: [Example Contributing](https://github.com/ONSdigital/ons-gcp-terraform-template/blob/main/CONTRIBUTING.md)
 1. For public facing repositories we will include, all the private repositories files plus:
     - A MIT License (Implements 4.4)
 1. For a SINGLE project Terraform repositories we will store Terraform code in the ROOT.
@@ -30,7 +30,7 @@
 
 
 ## Releases
-1. All releases will use Semantic Versioning https://semver.org/
+1. All releases will use Semantic Versioning [Semver](https://semver.org/)
 
 ## Security
 1. All Terraform repositories should not be public.
