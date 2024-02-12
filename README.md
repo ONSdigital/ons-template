@@ -4,6 +4,7 @@ This repository attempts to demonstrate how colleagues can implement the [GitHub
 
 ## Contents
 [The Wiki](#The-Wiki!)
+[Contributing](#Contributing)
 
 ## The Wiki!
 [The wiki](../../wiki) explains how you could implement the GitHub Repository policy.
