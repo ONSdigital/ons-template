@@ -30,7 +30,7 @@
 
 
 ## Releases
-1. All releases will use Semantic Versioning [Semver](https://semver.org/)
+1. All releases will use Semantic Versioning [SemVer](https://semver.org/)
 
 ## Security
 1. All Terraform repositories should not be public.
