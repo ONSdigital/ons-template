@@ -20,4 +20,4 @@ Please see [CONTRIBUTING.md](CONTRIBUTING.md)
 * A link to a contributions page commonly called CONTRIBUTING.md.
 * Table of contents.
 * The basics, how to install or run the code within.
-* One diagrams, video or demos to show how the project works.
+* At least one diagrams or video to show how the project works.
