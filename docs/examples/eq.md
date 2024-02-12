@@ -1,5 +1,5 @@
 # Repository Visibility
-1. Set the repository visibility based to public by default. Private or internal repos should include a `Priviate/Internal Reasoning Record (PIRR.md)` file that documents the decision of why the repo was made public or private.
+1. Set the repository visibility based to public by default. Private or internal repos should include a `Priviate/Internal Reasoning Record (PIRR.md)` file that documents the decision of why the repository was made public or private.
 
 # Default Branch - Set the base default branch to `main`
 

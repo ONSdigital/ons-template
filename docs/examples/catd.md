@@ -13,7 +13,7 @@
 
 # Files and Folders
 1. For all repositories we will include:
-1. A CODEOWNERS file in a .github folder.
+1. A CODEOWNERS file in a `.github` folder.
 1. A README.md, For README guidance go here: https://github.com/ONSdigital/gcp-terraform-template/blob/main/README.md
 1. A CONTRIBUTING.md  (Implements 4.6)
     - For contributing guidance go here: https://github.com/ONSdigital/gcp-terraform-template/blob/main/CONTRIBUTING.md
