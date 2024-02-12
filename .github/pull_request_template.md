@@ -7,7 +7,7 @@
 - [ ] New service
 - [ ] New feature
 - [ ] Breaking change
-- [ ] Bug fix
+- [ ] Bugfix
 - [ ] Quality of life changes
 
 ## Checklist
