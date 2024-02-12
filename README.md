@@ -1,4 +1,4 @@
-[![Super-Linter](https://github.com/ONSdigital/ons-template/blob/main/.github/workflows/super-linter.yml/badge.svg?branch=main)](https://github.com/marketplace/actions/super-linter)
+[![Super-Linter](https://github.com/ONSdigital/ons-template/actions/workflows/super-linter.yml/badge.svg?branch=main)]
 
 # ons-template
 
