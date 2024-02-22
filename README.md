@@ -12,6 +12,24 @@ This repository attempts to demonstrate how colleagues can implement the [GitHub
 ## The Wiki
 [The wiki](../../wiki) explains how you could implement the GitHub Repository policy.
 
+## How to use this template
+
+> **DO NOT FORK** this repository. Instead, use the
+> **[Use this template](https://github.com/ONSdigital/ons-template/generate)** feature.
+
+To get started with this template:
+
+1. Click on **[Use this template](https://github.com/ONSdigital/ons-template/generate)**.
+2. Name your new repository and provide a description, then click **Create repository**. Note: the repository name
+   should be lowercase and use
+   hyphens (`-`) instead of spaces.
+3. GitHub Actions will process the template and commit to your new repository shortly after you click **Create
+   repository**.. **Wait until the first
+   run of GitHub Actions CI to finish!**
+4. Once the **Rename Project** CI action has run, clone the repo and start working on your project.
+
+> **NOTE**: **WAIT** until first CI run of **Rename Project** job before cloning your new project.
+
 ## Contributing
 Please see [CONTRIBUTING.md](CONTRIBUTING.md)
 
