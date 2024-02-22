@@ -30,8 +30,25 @@ To get started with this template:
 
 > **NOTE**: **WAIT** until first CI run of **Rename Project** job before cloning your new project.
 
+## Post-Clone Steps
+### Repository Settings
+Familiarise yourself with the [ONS GitHub Policy](../../wiki) and ensure your repository is compliant with the policy.
+
+Few key points to note are:
+
+- **[Branch Protection](https://github.com/ONSdigital/ons-template/wiki/5.7-Branch-Protection-rules)**: Ensure
+  the `main` or any other primary branch
+  is protected.
+- **[Signed Commits](https://github.com/ONSdigital/ons-template/wiki/5.8-Signed-Commits)**: Use GPG keys to sign your
+  commits.
+- **[Security Alerts](https://github.com/ONSdigital/ons-template/wiki/6.2-Security)**: Make use of Secret scanning and
+  Dependabot alerts.
+
 ## Contributing
 Please see [CONTRIBUTING.md](CONTRIBUTING.md)
+
+## TODO
+- Move to megalinter
 
 ## What should a good README.md contain
 * Title formatted as heading one.
