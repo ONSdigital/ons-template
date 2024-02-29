@@ -7,6 +7,7 @@ This repository attempts to demonstrate how colleagues can implement the [GitHub
 ## Contents
 * [The Wiki](#the-wiki)
 * [Contributing](#contributing)
+* [How to use this template](#how-to-use-thistemplate)
 * [What should a good README.md contain](#what-should-a-good-readmemd-contain)
 
 ## The Wiki
