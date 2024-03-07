@@ -38,5 +38,3 @@ done
 
 mv project_name "$name"
 
-# This command runs only once on GHA!
-rm -rf .github/template.yml
