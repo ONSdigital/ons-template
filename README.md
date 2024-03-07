@@ -21,7 +21,7 @@ This repository attempts to demonstrate how colleagues can implement the [GitHub
 To get started with this template:
 
 1. Click on **[Use this template](https://github.com/ONSdigital/ons-template/generate)**.
-2. Select the correct visibility, default is public or internal over private.
+2. Select the correct visibility, default is public or internal over private. The default is internal as per [GitHubs Documentation](https://docs.github.com/en/enterprise-cloud@latest/repositories/creating-and-managing-repositories/about-repositories#about-internal-repositories)
 3. Name your new repository and provide a description, then click **Create repository**. Note: the repository name
    should be lowercase and use
    hyphens (`-`) instead of spaces.
