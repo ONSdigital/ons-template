@@ -37,4 +37,3 @@ for filename in $(git ls-files); do
 done
 
 mv project_name "$name"
-
