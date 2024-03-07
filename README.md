@@ -21,13 +21,14 @@ This repository attempts to demonstrate how colleagues can implement the [GitHub
 To get started with this template:
 
 1. Click on **[Use this template](https://github.com/ONSdigital/ons-template/generate)**.
-2. Name your new repository and provide a description, then click **Create repository**. Note: the repository name
+2. Select the correct visibility, default is public or internal over private. The default is internal as per [GitHubs Documentation](https://docs.github.com/en/enterprise-cloud@latest/repositories/creating-and-managing-repositories/about-repositories#about-internal-repositories)
+3. Name your new repository and provide a description, then click **Create repository**. Note: the repository name
    should be lowercase and use
    hyphens (`-`) instead of spaces.
-3. GitHub Actions will process the template and commit to your new repository shortly after you click **Create
+4. GitHub Actions will process the template and commit to your new repository shortly after you click **Create
    repository**.. **Wait until the first
    run of GitHub Actions CI to finish!**
-4. Once the **Rename Project** CI action has run, clone the repository and start working on your project.
+5. Once the **Rename Project** CI action has run, clone the repository and start working on your project.
 
 > **NOTE**: **WAIT** until first CI run of **Rename Project** job before cloning your new project.
 

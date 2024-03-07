@@ -37,6 +37,3 @@ for filename in $(git ls-files); do
 done
 
 mv project_name "$name"
-
-# This command runs only once on GHA!
-rm -rf .github/template.yml
