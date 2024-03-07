@@ -106,6 +106,7 @@ jobs:
           if [ "$is_public" = true ];
             echo "Removing PIRR.md"
             rm .docs/PIRR.md
+          fi
 
       - name: Cleanup
         if: env.is_template == 'false' && env.needs_renaming == 'true'
