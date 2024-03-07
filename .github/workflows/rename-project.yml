@@ -103,7 +103,7 @@ jobs:
 
       - name: Check if PIRR is needed
         run: |
-          if [ "$is_public" = true ];
+          if [ "$is_public" = true ]; then
             echo "Removing PIRR.md"
             rm .docs/PIRR.md
           fi
