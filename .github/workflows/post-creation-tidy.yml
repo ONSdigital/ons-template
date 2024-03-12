@@ -2,7 +2,7 @@
 # This workflow is triggered on push events and renames the project from template
 # This should be the first workflow to run after the project is created from the 'Use this template' feature
 
-name: Rename Project from Template
+name: Post Creation Tidy
 
 on: # yamllint disable-line rule:truthy
   push:
@@ -17,7 +17,7 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  rename-project:
+  post-creation-tidy:
     name: Rename Project
     runs-on: ubuntu-22.04
     steps:
@@ -61,16 +61,15 @@ jobs:
             core.exportVariable('REPOSITORY_DESCRIPTION', description);
             core.exportVariable('is_public', isPublic);
 
-      - name: Rename Repository Check
-        if: env.is_template == 'false'
-        run: |
-          echo "needs_renaming=$(ls .github/template.yml &> /dev/null && echo true || echo false)" >> "$GITHUB_ENV"
-
-      # Not implemented yet
-      # - name: Rename project-README.md to README.md
-      #   if: env.is_template == 'false' && env.needs_renaming == 'true'
+      # - name: Rename Repository Check
+      #   if: env.is_template == 'false'
       #   run: |
-      #     mv project-README.md README.md
+      #     echo "needs_renaming=$(ls .github/template.yml &> /dev/null && echo true || echo false)" >> "$GITHUB_ENV"
+
+      - name: Update readme
+        if: env.is_template == 'false' && env.needs_renaming == 'true'
+        run: |
+          mv ./workflows/README.md README.md
 
       # - name: Add markdown-link-check Config File
       #   if: env.is_template == 'false' && env.needs_renaming == 'true'
