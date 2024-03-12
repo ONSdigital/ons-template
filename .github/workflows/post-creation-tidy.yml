@@ -113,7 +113,7 @@ jobs:
         run: |
           rm .github/rename_project.sh
           rm .github/workflows/post-creation-tidy.yml
-          rm .github/workflows/superl.yml 
+          rm .github/workflows/super-linter.yml 
           rm -rf .assets
 
       - uses: stefanzweifel/git-auto-commit-action@v5
