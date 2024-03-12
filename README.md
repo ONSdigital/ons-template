@@ -45,6 +45,8 @@ Few key points to note are:
   commits.
 - **[Security Alerts](https://github.com/ONSdigital/ons-template/wiki/6.2-Security)**: Make use of Secret scanning and
   Dependabot alerts.
+- **[PIRR](https://github.com/ONSdigital/ons-template/wiki/4.2-Private-Internal-Repository-Information)**: If not
+  public then ensure a PIRR.md is documented.
 
 ## Contributing
 Please see [CONTRIBUTING.md](CONTRIBUTING.md)
