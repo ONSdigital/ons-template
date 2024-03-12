@@ -49,9 +49,6 @@ Few key points to note are:
 ## Contributing
 Please see [CONTRIBUTING.md](CONTRIBUTING.md)
 
-## TODO
-- Move to megalinter
-
 ## What should a good README.md contain
 * Title formatted as heading one.
 * Brief Description of the Repository under said title.
